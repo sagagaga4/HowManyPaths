@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #define row 3
 #define col 3
+
 int paths(int i, int j)
 {
     int **Matrix = (int**)malloc(sizeof(int*) * row );
@@ -32,8 +33,5 @@ int main()
     int j = 1;
     int result = paths(i,j);
     printf("%d\n",result);
-
-
-
     return 0 ;
 }
